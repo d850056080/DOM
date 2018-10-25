@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>瑞福莱</title>
+<style>
+    html,body,img,h5,p{margin: 0;padding: 0;}
+    img{display: block;border: none}
+    .body_back{width:100vw;height:160.8vw;background: url(img/background.jpg) no-repeat center/100%;position: relative;}
+    .body_back:after{content: "";display: block;width:96vw;height: 152vw;border: 2px solid white;position: absolute;top:50%;left: 50%;transform: translate(-50%,-50%);background: url(img/triangle.png) no-repeat center 80%/70%}
+    .banner{width: 100vw;padding-top: 80px;position: relative;z-index: 999}
+    .QRcode{width: 100vw;height: auto;padding: 60px 0;position: relative;z-index: 999}
+    .QRcode::before{content: "";display: block;width: 152px;height: 26px; position: absolute;background: url(img/cloud.png) no-repeat center/contain ;top: 10%;left: 10%}
+    .QRcode::after{content: "";display: block;width: 152px;height: 26px;position: absolute;background: url(img/cloud.png) no-repeat center/contain ;bottom: 10%;right: 10%}
+    .QRcode img{margin: 20px auto;border: 10px solid #9c8167;padding: 50px}
+    .procedure{width: 60vw;margin: auto;letter-spacing: 2px;position: relative;z-index: 999}
+    .procedure h5{color: #86ba48;padding-top: 16px;font-size: 36px}
+    .procedure p{color: white;font-size: 32px}
+</style>
+</head>
+<body>
+<div class="body_back">
+    <div class="banner"><img src="img/banner.jpg" width="100%" alt=""></div>
+    <div class="QRcode"><img src="img/QR Code.jpg" width="280" height="280" alt=""></div>
+    <div class="procedure">
+        <h5>第一步</h5>
+        <p>长按关注“瑞福莱”官方微信公众号</p>
+        <h5>第二步</h5>
+        <p>进入公众号，点击底部菜单“真伪查询”</p>
+        <h5>第三步</h5>
+        <p>扫码或输码查询商品的真伪信息</p>
+    </div>
+</div>
+    
+</body>
+</html>
